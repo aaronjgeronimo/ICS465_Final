@@ -14,9 +14,9 @@
   <div class="background-site">
     <div class="ui center aligned container container-width big-padding-bottom">
       <p class="Nunito-font font-large big-padding-top">
-        <span class="font-bold font-color-white">Welcome to</span>
-        <span class="font-bold font-color-green"> Stud</span>
-        <span class="font-color-green">Budd</span>
+        <span class="font-bold font-color-white">Welcome to The</span>
+        <span class="font-bold font-color-green">TheStudyBuddy</span>
+      </p>
       <p class="font-small font-color-white medium-padding-bottom">
         <span class="font-bold font-color-lightgrey">P</span>eople
         <span class="font-bold font-color-lightgrey"> H</span>ave
@@ -26,22 +26,21 @@
         <span class="font-bold font-color-lightgrey"> T</span>hem
         <span class="font-bold font-color-lightgrey"> P</span>lease.
       </p>
-      </p>
+
       <div class="ui center aligned container small-padding-bottom">
                 <span class="Nunito-font font-medium font-bold font-color-green">
                   Our Top Mentors
                 </span>
       </div>
-      <Grid centered container stackable columns={3}>
-        {this.props.mentors.slice(0, 3).map(mentor => <MentorCard key={mentor._id} mentor={mentor}/>)}
-      </Grid>
+      <div class="ui grid">
+
+      </div>
     </div>
   </div>
   <div>
     <div class="ui center aligned container">
-      <Header/>
-      <Grid container columns={2}>
-        <Grid.Column>
+      <div class="ui centered grid">
+        <div class="eight wide column">
           <p class="Nunito-font font-medium text-align-right margin-bottom-minus-10"><span
               class="font-bold">Why use Stud</span>Budd?</p>
           <p class="text-align-right font-small">
@@ -53,17 +52,17 @@
             <br/>
             <span class="font-bold">Get the Grade.</span>
           </p>
-        </Grid.Column>
-        <Grid.Column>
-          <p class="Nunito-font font-medium text-align-left margin-bottom-minus-10">
-            <span class="font-bold font-large font-color-green">{this.props.student.length}</span> Students.
-            <br/>
-            <span class="font-bold font-large font-color-green">{this.props.mentors.length}</span> Mentors.
-            <br/>
-            <span class="font-bold font-large font-color-green">17</span> Subjects.
-          </p>
-        </Grid.Column>
-      </Grid>
+        </div>
+          <div class="eight wide column">
+            <p class="Nunito-font font-medium text-align-left margin-bottom-minus-10">
+              <span class="font-bold font-large font-color-green">2000</span> Students.
+              <br/>
+              <span class="font-bold font-large font-color-green">800</span> Mentors.
+              <br/>
+              <span class="font-bold font-large font-color-green">50</span> Subjects.
+            </p>
+          </div>
+      </div>
     </div>
   </div>
   <div class="Nunito-font font-small">
