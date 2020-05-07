@@ -1,39 +1,106 @@
 {
   "defaultAccounts": [
-    { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
-    { "email": "john@foo.com", "password": "changeme" }
+    {
+      "email": "admin@foo.com",
+      "password": "changeme",
+      "role": "admin"
+    },
+    {
+      "email": "john@foo.com",
+      "password": "changeme"
+    }
   ],
-
-  "defaultContacts": [
+  "defaultData": [
+    {
+      "name": "Basket",
+      "quantity": 3,
+      "owner": "john@foo.com",
+      "condition": "excellent"
+    },
+    {
+      "name": "Bicycle",
+      "quantity": 2,
+      "owner": "john@foo.com",
+      "condition": "poor"
+    },
+    {
+      "name": "Banana",
+      "quantity": 2,
+      "owner": "admin@foo.com",
+      "condition": "good"
+    },
+    {
+      "name": "Boogie Board",
+      "quantity": 2,
+      "owner": "admin@foo.com",
+      "condition": "excellent"
+    }
+  ],
+  "defaultProfile": [
+    {
+      "firstName": "Kain",
+      "lastName": "Yogi",
+      "studyClass": "test",
+      "owner": "admin@foo.com"
+    },
+    {
+      "firstName": "Kain",
+      "lastName": "Yogi",
+      "studyClass": "test",
+      "owner": "john@foo.com"
+    }
+  ],
+  "defaultCalendar": [
+    {
+      "MondayAvailability": "Unavailable",
+      "TuesdayAvailability": "Unavailable",
+      "WednesdayAvailability": "Unavailable",
+      "ThursdayAvailability": "Unavailable",
+      "FridayAvailability": "Unavailable",
+      "SaturdayAvailability": "Unavailable",
+      "SundayAvailability": "Unavailable",
+      "owner": "john@foo.com"
+    },
+    {
+      "MondayAvailability": "Unavailable",
+      "TuesdayAvailability": "Unavailable",
+      "WednesdayAvailability": "Unavailable",
+      "ThursdayAvailability": "Unavailable",
+      "FridayAvailability": "Unavailable",
+      "SaturdayAvailability": "Unavailable",
+      "SundayAvailability": "Unavailable",
+      "owner": "admin@foo.com"
+    }
+  ],
+  "defaultMentors": [
     {
       "firstName": "Philip",
       "lastName": "Johnson",
-      "owner": "john@foo.com",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://philipmjohnson.github.io/images/philip2.jpeg",
-      "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and the CEO of OpenPowerQuality.com."
-
+      "class1": "Software Engineering",
+      "class2": "Computer",
+      "class3": "Poetry",
+      "owner": "john@foo.com"
     },
     {
-      "firstName": "Henri",
-      "lastName": "Casanova",
-      "owner": "john@foo.com",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://avatars0.githubusercontent.com/u/7494478?s=460&v=4",
-      "description": "I am originally from France. I maintain a list of reports from my surf sessions. I have proof that I ran the Hana relay with an actual Team."
+      "firstName": "Aaron",
+      "lastName": "Geronimo",
+      "class1": "Software Engineering",
+      "class2": "Mandarin",
+      "class3": "Electrical",
+      "owner": "john@foo.com"
     },
     {
-      "firstName": "Kim",
-      "lastName": "Binsted",
-      "owner": "admin@foo.com",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://pbs.twimg.com/profile_images/798636728852434944/Y2EMD2i5_400x400.jpg",
-      "description": "Kim Binsted received her BSc in Physics at McGill (1991), and her PhD in Artificial Intelligence from the University of Edinburgh (1996). Her thesis topic was the computational modeling and generation of punning riddles, and her program, JAPE (Joke Analysis and Production Engine), generated puns such as 'What do you call a Martian who drinks beer? An ale-ien!'."
+      "firstName": "Kain",
+      "lastName": "Yogi",
+      "class1": "Software Engineering",
+      "class2": "Spanish",
+      "class3": "Electrical",
+      "owner": "john@foo.com"
     }
   ],
   "galaxy.meteor.com": {
-    "env":{
-      "MONGO_URL": "mongodb://user:nRCNF2cGfVYRcJR@ds111718.mlab.com:11718/appdb"
+    "env": {
+      "MONGO_URL": "mongodb://admin:password1@ds229373.mlab.com:29373/studbudddb"
     }
   }
 }

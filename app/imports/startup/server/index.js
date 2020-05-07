@@ -1,3 +1,5 @@
 import './accounts.js';
-import './contact.js';
-import './note.js';
+import './stuff.js';
+import './profile.js';
+import './Calendar.js';
+import './mentor.js';

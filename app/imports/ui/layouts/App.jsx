@@ -7,15 +7,25 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
-import ListContacts from '../pages/ListContact';
-import ListContactAdmin from '../pages/ListContactAdmin';
-import AddContact from '../pages/AddContact';
-import EditContact from '../pages/EditContact';
+import ListStuff from '../pages/ListStuff';
+import ListStuffAdmin from '../pages/ListStuffAdmin';
+import AddStuff from '../pages/AddStuff';
+import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
-
+import ClassList from '../pages/ClassList';
+import Tutors from '../pages/Tutors';
+import Students from '../pages/Students';
+import EditProfile from '../pages/EditProfile';
+import AddProfile from '../pages/AddProfile';
+import EditMentor from '../pages/EditMentor';
+import Statistics from '../pages/Statistics';
+import Mentorapp from '../pages/Mentorapp';
+import MyProfile from '../pages/MyProfile';
+import Instruction from '../pages/Instruction';
+import EditAvailability from '../pages/EditAvailability';
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
   render() {
@@ -27,11 +37,22 @@ class App extends React.Component {
               <Route exact path="/" component={Landing}/>
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
-              <ProtectedRoute path="/list" component={ListContacts}/>
-              <ProtectedRoute path="/add" component={AddContact}/>
-              <ProtectedRoute path="/edit/:_id" component={EditContact}/>
-              <AdminProtectedRoute path="/admin" component={ListContactAdmin}/>
+              <Route path="/classes" component={ClassList}/>
+              <Route path="/tutors" component={Tutors}/>
+              <Route path="/instruction" component={Instruction}/>
+              <Route path="/myprofile/:_id" component={MyProfile}/>
+              <ProtectedRoute path="/students" component={Students}/>
+              <ProtectedRoute path="/list" component={ListStuff}/>
+              <ProtectedRoute path="/add" component={AddStuff}/>
+              <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
+              <AdminProtectedRoute path="/admin" component={ListStuffAdmin}/>
+              <AdminProtectedRoute path="/stats" component={Statistics}/>
               <ProtectedRoute path="/signout" component={Signout}/>
+              <ProtectedRoute path="/mentorapp" component={Mentorapp}/>
+              <ProtectedRoute path="/editprofile/:_id" component={EditProfile}/>
+              <ProtectedRoute path="/editavailability/:_id" component={EditAvailability}/>
+              <ProtectedRoute path="/addprofile" component={AddProfile}/>
+              <ProtectedRoute path="/editmentor/:_id" component={EditMentor}/>
               <Route component={NotFound}/>
             </Switch>
             <Footer/>

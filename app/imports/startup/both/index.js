@@ -1,2 +1,4 @@
-import '/imports/api/contact';
-import '/imports/api/note';
+import '/imports/api/stuff';
+import '/imports/api/profile';
+import '/imports/api/mentor';
+import '/imports/api/Calendar';
