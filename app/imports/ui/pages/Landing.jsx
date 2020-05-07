@@ -34,8 +34,8 @@ class Landing extends React.Component {
             <div className="ui center aligned container container-width big-padding-bottom">
               <p className="Nunito-font font-large big-padding-top">
                 <span className="font-bold font-color-white">Welcome to</span>
-                <span className="font-bold font-color-green"> Stud</span>
-                <span className="font-color-green">Budd</span>
+                <span className="font-bold font-color-green"> Study</span>
+                <span className="font-color-green">Buddy</span>
                 <p className="font-small font-color-white medium-padding-bottom">
                   <span className="font-bold font-color-lightgrey">P</span>eople
                   <span className="font-bold font-color-lightgrey"> H</span>ave
@@ -62,7 +62,7 @@ class Landing extends React.Component {
               <Grid container columns={2}>
                 <Grid.Column>
                   <p className="Nunito-font font-medium text-align-right margin-bottom-minus-10"><span
-                      className="font-bold">Why use Stud</span>Budd?</p>
+                      className="font-bold">Why use Study</span>Buddy?</p>
                   <p className="text-align-right font-small">
                     <span className="font-bold">Develop</span> your Study Habits.
                     <br/>
@@ -99,9 +99,7 @@ class Landing extends React.Component {
                     The sign up page is where you sign up for an account as a student to interact
                     with other students or choose an available tutoring session to join. Using your email
                     and creating your password.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentSignUp.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 1} index={1} onClick={this.handleClick}>
@@ -112,9 +110,7 @@ class Landing extends React.Component {
                   <p>
                     After creating an account from the Sign Up page, you can log in with your email
                     and password to gain access to the Classes and Tutors page.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentSignIn.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
@@ -125,9 +121,7 @@ class Landing extends React.Component {
                   <p>
                     You can use the Edit Profile page to change your first name, last name, and a
                     class that you are looking for help in.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentEditProfile.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 3} index={3} onClick={this.handleClick}>
@@ -139,9 +133,7 @@ class Landing extends React.Component {
                     If you are signed in as a student, you will be able to select from a variety of classes
                     that are offered by Tutors to help you. Within the classes, it will also show you when
                     and where the tutoring sessions will be held.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentClassList.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 4} index={4} onClick={this.handleClick}>
@@ -152,9 +144,7 @@ class Landing extends React.Component {
                   <p>
                     Once you are logged in as a student, you will be able to create a study session
                     with fellow students who are also interested or need help in your course/ subject.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentStudentPage.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 5} index={5} onClick={this.handleClick}>
@@ -165,9 +155,7 @@ class Landing extends React.Component {
                   <p>
                     The Tutors page will allow students to view tutors that has applied and has
                     been approved, as well as their major and area of strength.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentTutors.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
                 <Accordion.Title active={activeIndex === 6} index={6} onClick={this.handleClick}>
@@ -178,9 +166,7 @@ class Landing extends React.Component {
                   <p>
                     Completely signs you out of your account so other people on the computer will
                     not be able to change nor view your information and sesssions.
-                    <Image className="align-center"
-                           src='https://raw.githubusercontent.com/studbudd/studbudd/Issue41-Instructions/app/public/images/StudentSignOut.png'
-                           size='big'/>
+
                   </p>
                 </Accordion.Content>
               </Accordion>
