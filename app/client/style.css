@@ -69,6 +69,10 @@
   margin-bottom: -10px;
 }
 
+.percent-padding-bottom {
+  padding-bottom: 10%;
+}
+
 .big-padding-bottom {
   padding-bottom: 96px;
 }
@@ -155,6 +159,7 @@
 }
 
 .position-bottom {
+  bottom: 0px;
 }
 
 .fixed {
