@@ -40,12 +40,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1988a669-b724-4d3b-8475-752163f23567" name="Default Changelist" comment="" />
+      <changelist id="81b0afe8-800e-48ad-a201-fd58e4598dd2" name="Default Changelist" comment="" />
       <created>1588831016208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588831016208</updated>
       <workItem from="1588831018524" duration="1146000" />
+      <workItem from="1588928600990" duration="683000" />
     </task>
     <servers />
   </component>
@@ -57,5 +58,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="174" y="212" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588831156477" />
+    <state x="481" y="240" key="run.anything.popup" timestamp="1588929459387">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="481" y="240" key="run.anything.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588929459387" />
   </component>
 </project>
