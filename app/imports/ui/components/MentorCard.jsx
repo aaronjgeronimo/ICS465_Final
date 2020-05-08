@@ -13,7 +13,7 @@ class MentorCard extends React.Component {
          */
         <Grid.Column>
           <Card className='green-outline'>
-            <Card.Header className='mentor-card-header font-smaller font-color-white'>
+            <Card.Header className='text-align-center mentor-card-header font-smaller font-color-white'>
               <Icon name='user'/>{this.props.mentor.firstName} {this.props.mentor.lastName}
             </Card.Header>
             <Card.Content>

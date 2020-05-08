@@ -35,7 +35,7 @@
 }
 
 .font-color-green {
-  color: #6fbe44;
+  color: #1FA5BC;
 }
 
 .font-color-black {
@@ -44,7 +44,7 @@
 
 .green-outline  {
   border: solid !important;
-  border-color: #6fbe44 !important;
+  border-color: #1FA5BC !important;
   border-width: 2px !important;
 }
 
@@ -93,10 +93,14 @@
   padding-top: 24px;
 }
 
+.small-padding-right {
+  padding-right: 24px;
+}
+
 .background-site {
-  background-image: url('/images/Landing-3.jpg');
+  background-image: url('/images/Landing-9.jpg');
   background-size: cover;
-  background-position-y: -100px;
+  background-position-y: -400px;
   background-repeat: no-repeat;
 }
 
@@ -134,11 +138,11 @@
 
 .mentor-card-header {
   padding: 15px 15px 15px 15px;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: black;
 }
 
 .mentor-card-content  {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: black;
 
 }
 

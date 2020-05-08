@@ -36,18 +36,9 @@ class Landing extends React.Component {
                 <span className="font-bold font-color-white">Welcome to</span>
                 <span className="font-bold font-color-green"> Study</span>
                 <span className="font-color-green">Buddy</span>
-                <p className="font-small font-color-white medium-padding-bottom">
-                  <span className="font-bold font-color-lightgrey">P</span>eople
-                  <span className="font-bold font-color-lightgrey"> H</span>ave
-                  <span className="font-bold font-color-lightgrey"> Q</span>uestions,
-                  <span className="font-bold font-color-lightgrey"> S</span>o
-                  <span className="font-bold font-color-lightgrey"> H</span>elp
-                  <span className="font-bold font-color-lightgrey"> T</span>hem
-                  <span className="font-bold font-color-lightgrey"> P</span>lease.
-                </p>
               </p>
-              <div className="ui center aligned container small-padding-bottom">
-                <span className="Nunito-font font-medium font-bold font-color-green">
+              <div className="ui align-center center aligned container small-padding-bottom">
+                <span className="Nunito-font small-padding-right text-align-center font-medium font-bold font-color-white">
                   Our Top Mentors
                 </span>
               </div>
