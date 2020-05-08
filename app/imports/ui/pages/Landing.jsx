@@ -6,6 +6,7 @@ import { Profile } from '/imports/api/profile/profile';
 import MentorCard from '/imports/ui/components/MentorCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
+import { bounceInRight } from 'animate.css';
 import CalendarItem from '../components/CalendarItem';
 import { Calendar } from '/imports/api/Calendar/Calendar';
 
@@ -42,9 +43,11 @@ class Landing extends React.Component {
                   Our Top Mentors
                 </span>
               </div>
-              <Grid centered container stackable columns={3}>
-                {this.props.mentors.slice(0, 3).map(mentor => <MentorCard key={mentor._id} mentor={mentor}/>)}
-              </Grid>
+              <div className="animate__animated animate__bounceInRight">
+                <Grid centered container stackable columns={3}>
+                  {this.props.mentors.slice(0, 3).map(mentor => <MentorCard key={mentor._id} mentor={mentor}/>)}
+                </Grid>
+              </div>
             </div>
           </div>
           <div>
@@ -76,10 +79,10 @@ class Landing extends React.Component {
               </Grid>
             </div>
           </div>
-          <div className="Nunito-font font-small">
+          <div className="Nunito-font font-small inverted-section">
             <Container>
               <Divider hidden/>
-              <Header as="h2" textAlign="left">Intructions For Students</Header>
+              <Header as="h2" color="white" textAlign="left">Intructions For Students</Header>
               <Accordion exclusive={false} fluid styled>
                 <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
                   <Icon name='dropdown'/>
@@ -161,7 +164,7 @@ class Landing extends React.Component {
                   </p>
                 </Accordion.Content>
               </Accordion>
-              <Header as="h2" textAlign="left">Intructions For Tutors</Header>
+              <Header as="h2" color="white" textAlign="left">Intructions For Tutors</Header>
               <Accordion exclusive={false} fluid styled>
                 <Accordion.Title active={activeIndex === 7} index={7} onClick={this.handleClick}>
                   <Icon name='dropdown'/>

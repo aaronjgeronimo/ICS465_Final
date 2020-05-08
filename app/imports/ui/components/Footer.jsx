@@ -4,9 +4,9 @@ import { Grid, List } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
-    const divStyle = { background: '#1B1C1D', paddingTop: '15px' };
+    const divStyle = { background: '#1B1C1D', paddingTop: '0px' };
     return (
-        <div className="Nunito-font font-color-white" style={divStyle}>
+        <div className="Nunito-font font-color-white position-bottom" style={divStyle}>
           <footer>
             <Grid textAlign='center' container>
               <Grid.Column width={3}>
@@ -43,19 +43,13 @@ class Footer extends React.Component {
                 </List.Item> <br />
                 <List.Item className="font-color-white" href={'https://www.gofundme.com/'}>
                   GoFund Me
-                </List.Item> <br />
-                <List.Item className="font-color-white" href={'https://www.twitch.tv/aesplozion'}>
-                  Twitch - aesplozion
-                </List.Item> <br />
-                <List.Item className="font-color-white" href={'https://www.twitch.tv/potatonii'}>
-                  Twitch - potatonii
-                </List.Item> <br />
+                </List.Item>
               </Grid.Column>
               <Grid.Column width={3}>
                 <List className="font-color-green font-bold font-small">About Us</List>
                 <hr/>
                 <List.Item>
-                  PHQSHTP inc. llc. co. LtD. est 2018 <br />
+                  ASKLOCK inc. llc. co. LtD. est 2020 <br />
                   University of Hawaii<br />
                   Honolulu, HI 96822
                 </List.Item>
