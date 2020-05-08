@@ -1,3 +1,4 @@
+/** Auto Generated */
 import React from 'react';
 import { Grid, Loader, Header, Segment } from 'semantic-ui-react';
 import { Stuffs, StuffSchema } from '/imports/api/stuff/stuff';

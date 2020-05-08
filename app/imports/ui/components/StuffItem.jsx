@@ -1,3 +1,4 @@
+/** Auto Generated */
 import React from 'react';
 import { Table } from 'semantic-ui-react';
 import PropTypes from 'prop-types';

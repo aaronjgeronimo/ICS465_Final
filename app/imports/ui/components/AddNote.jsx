@@ -1,3 +1,4 @@
+/** Auto Generated */
 import React from 'react';
 import { Notes, NoteSchema } from '/imports/api/note/note';
 import { Segment } from 'semantic-ui-react';

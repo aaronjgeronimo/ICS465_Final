@@ -1,3 +1,4 @@
+/** Created by Aaron and Kain*/
 import React from 'react';
 import { Mentors, MentorSchema } from '/imports/api/mentor/mentor';
 import { Grid, Segment } from 'semantic-ui-react';

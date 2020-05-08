@@ -1,3 +1,4 @@
+/** Created by Sunny, Aaron, and Sunny*/
 import React from 'react';
 import { Card, Container, Header, Loader, Divider } from 'semantic-ui-react';
 import { Profile } from '/imports/api/profile/profile';

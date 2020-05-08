@@ -1,3 +1,4 @@
+/** Created by aaron, Sunny, and Kain*/
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Loader } from 'semantic-ui-react';
@@ -18,13 +19,6 @@ class Tutors extends React.Component {
   /** Render the page once subscriptions have been received. */
   renderPage() {
     return (
-        /*
-        11/15/18 - Jeff
-        Implementing layout for mentor list display
-        Nothing Changed yet
-        Only changed mentor references and imported Mentors schema from /imports/api/mentor/mentor
-        {this.props.mentors.map(mentor => <MentorItemAdmin key={mentor._id} mentor={mentor} />)}
-        */
         <div className="container">
           <div className="ui center aligned container">
             {this.props.Calendar.map((calendar) => <CalendarItem key={calendar._id} Calendar={calendar}/>)}

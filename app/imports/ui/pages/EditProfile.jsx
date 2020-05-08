@@ -1,3 +1,4 @@
+/** Created By Sunny and Aaron */
 import React from 'react';
 import { Profile, ProfileSchema } from '/imports/api/profile/profile';
 import { Grid, Segment, Loader } from 'semantic-ui-react';

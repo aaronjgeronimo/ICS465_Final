@@ -1,3 +1,4 @@
+/** Created by Sunny */
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Header, Divider } from 'semantic-ui-react';

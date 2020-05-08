@@ -1,3 +1,4 @@
+/** Auto Generated */
 import { Meteor } from 'meteor/meteor';
 import { Roles } from 'meteor/alanning:roles';
 import { Stuffs } from '../../api/stuff/stuff.js';

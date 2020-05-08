@@ -1,3 +1,4 @@
+/** Auto Generated */
 import React from 'react';
 import { Contacts, ContactSchema } from '/imports/api/contact/contact';
 import { Grid, Segment, Header } from 'semantic-ui-react';

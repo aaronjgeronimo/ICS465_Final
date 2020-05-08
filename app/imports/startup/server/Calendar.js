@@ -1,3 +1,4 @@
+/** Created By Kain Yogi*/
 import { Meteor } from 'meteor/meteor';
 import { Roles } from 'meteor/alanning:roles';
 import { Calendar } from '../../api/Calendar/Calendar.js';

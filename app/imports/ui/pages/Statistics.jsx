@@ -1,3 +1,4 @@
+/** Created by Kain */
 import React from 'react';
 import { Divider, Grid, Header, Loader, Container } from 'semantic-ui-react';
 import PropTypes from 'prop-types';

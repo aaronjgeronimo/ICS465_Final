@@ -1,3 +1,4 @@
+/** Created by Kain */
 import React from 'react';
 import { Calendar } from '/imports/api/Calendar/Calendar';
 import { Profile } from '/imports/api/profile/profile';

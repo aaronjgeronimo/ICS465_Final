@@ -1,3 +1,4 @@
+/** Created by Aaron */
 import React from 'react';
 import { Calendar, CalendarSchema } from '/imports/api/Calendar/Calendar';
 import { Grid, Segment, Loader } from 'semantic-ui-react';
