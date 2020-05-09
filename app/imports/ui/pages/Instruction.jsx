@@ -1,4 +1,3 @@
-/** Created by Kain, Aaron, and Sunny */
 import React from 'react';
 import { Header, Container, Accordion, Icon, Divider, Image } from 'semantic-ui-react';
 

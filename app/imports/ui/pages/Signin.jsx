@@ -1,4 +1,3 @@
-/** Created by Aaron and Kain*/
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, Redirect } from 'react-router-dom';

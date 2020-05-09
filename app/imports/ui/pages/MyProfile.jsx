@@ -1,4 +1,3 @@
-/** Created by Kain, Aaron, Sunny */
 import React from 'react';
 import { Grid, Loader, Header, Button, Segment, Image } from 'semantic-ui-react';
 import { Profile } from '/imports/api/profile/profile';

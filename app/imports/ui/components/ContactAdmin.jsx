@@ -1,4 +1,3 @@
-/** Auto Generated */
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';

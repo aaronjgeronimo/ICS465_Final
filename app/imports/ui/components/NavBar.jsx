@@ -1,4 +1,3 @@
-/** Created by Aaron */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Meteor } from 'meteor/meteor';

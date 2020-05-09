@@ -1,4 +1,3 @@
-/** Auto Generated */
 import { Meteor } from 'meteor/meteor';
 import { Notes } from '../../api/note/note.js';
 

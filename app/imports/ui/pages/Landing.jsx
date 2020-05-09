@@ -1,4 +1,3 @@
-/** Created by Kain, Aaron, Sunny*/
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Grid, Header, Accordion, Divider, Icon, Image, Container, Loader } from 'semantic-ui-react';
